@@ -1,4 +1,3 @@
-/* Container styling for the body */
 body {
   display: flex;
   flex-direction: column;
@@ -6,21 +5,18 @@ body {
   margin: 0;
 }
 
-/* Container styling for the main */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
 }
 
-/* Styling for the article */
 article {
   flex: 2;
   overflow-y: auto;
   padding: 20px;
 }
 
-/* Styling for the aside */
 aside {
   flex: 1;
   overflow-y: auto;
