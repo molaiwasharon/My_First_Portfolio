@@ -1,3 +1,4 @@
+/* Container styling for the body */
 body {
   display: flex;
   flex-direction: column;
@@ -5,23 +6,51 @@ body {
   margin: 0;
 }
 
+/* Container styling for the main */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
 }
 
-header,
-footer {
-  flex: 0 1 auto;
-}
-
+/* Styling for the article */
 article {
   flex: 2;
   overflow-y: auto;
+  padding: 20px;
 }
 
+/* Styling for the aside */
 aside {
   flex: 1;
   overflow-y: auto;
+  padding: 20px;
+}
+
+/* General styling */
+header,
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: blue;
 }
